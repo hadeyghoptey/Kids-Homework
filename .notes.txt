@@ -1,0 +1,17 @@
+# Planning
+- Decide on the tech stack & OS
+- Build & test init foothole
+- Build & test priv esc
+- Deploy the box
+- Setup services & configs
+- Testing
+- Cleanup
+
+# Foothold
+- Wordpress
+- Custom plugin
+
+# Priv esc
+- Script suid bit
+- Move files around
+- Abuse this by moving sensitive files such as /root/.ssh or /etc/shadow
