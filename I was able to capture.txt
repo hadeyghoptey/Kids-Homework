@@ -1,0 +1,38 @@
+keedhecker@sadistic:/var/www/html$ cat test.txt 
+"use the credentials you calculated from robots into FTP"
+keedhecker@sadistic:/var/www/html$ cat robots.txt 
+#QUIZ TIME
+Which two trig functions, when divided, give sec(c)?
+
+Answer format: sinc
+
+ftp ans: user tanc pass: sinc
+	
+echo "cocomelon:babyshark" > /home/ftpuser/ssh_hint.txt
+
+
+Flag{Kids_have_grown_up!}forge
+
+
+## To connect wireless network 
+ip link
+EDIT - sudo nano /etc/netplan/01-netcfg.yaml
+ADD
+
+network:
+  version: 2
+  wifis:
+    wlan0:
+      dhcp4: true
+      access-points:
+        "YourWiFiSSID":
+          password: "YourWiFiPassword"
+
+
+sudo netplan apply
+
+
+sudo systemctl status ssh
+sudo systemctl status vsftpd
+sudo systemctl status apache2
+
